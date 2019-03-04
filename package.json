@@ -1,0 +1,45 @@
+{
+  "name": "@gohelpfund/helpcore-p2p",
+  "version": "1.1.9",
+  "description": "Interface to the help P2P network for Helpcore",
+  "author": "BitPay <dev@bitpay.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "coverage": "nyc mocha"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Tirzuman",
+      "email": "daniel.tirzuman@gohelpfund.com"
+    }
+  ],
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "helphcore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gohelpfund/helpcore-p2p.git"
+  },
+  "dependencies": {
+    "@gohelpfund/helpcore-lib": "^0.16.5",
+    "bloom-filter": "^0.2.0",
+    "mocha": "^5.2.0",
+    "node-buffers": "^0.1.1",
+    "socks5-client": "^1.2.6"
+  },
+  "devDependencies": {
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^1.12.2"
+  },
+  "license": "MIT"
+}
